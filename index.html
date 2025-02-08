@@ -10,14 +10,17 @@
     <title>Weather app</title>
 </head>
 <body>
-    <img src="/weather-app-img/images/clear.png" alt="">
+    <img class="background" src="/weather-app-img/images/clear.png" alt="">
     <div class="card">
         <div class="search-bar">
             <input type="text" placeholder="Search for city">
             <button><img class="icon" src="/weather-app-img/images/search.svg" alt=""></button>
         </div>
 
-        <div class="results"></div>
+        <div class="results">
+            <p>Results for</p>
+            <p class="city">Lagos,Nigeria</p>
+        </div>
 
         <div class="weather-section">
             <div class="condition">
@@ -31,13 +34,15 @@
                     <p>53%</p>
                 </div>
 
-                <div class="wind">
+                <div class="humidity">
                     <p>Wind speed:</p>
                     <p>5.63km/hr</p>
                 </div>
             </div>
 
-            <img src="/weather-app-img/images/clear.png" alt="">
+            <div class="img">
+                <img src="/weather-app-img/images/clear.png" alt="">
+            </div>
         </div>
     </div>
 
